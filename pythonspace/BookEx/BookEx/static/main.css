@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: crimson;
+    border-top: thin solid blue;
+    clear: both;
+    color: aqua;
+}
+
