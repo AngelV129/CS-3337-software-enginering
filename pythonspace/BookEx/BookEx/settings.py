@@ -53,6 +53,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'BookEx.urls'
 
+#bookEx/templates
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -124,5 +125,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'bookEX/static')
 ]
+# bookEX/static
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
