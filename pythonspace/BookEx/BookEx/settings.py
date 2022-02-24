@@ -59,7 +59,7 @@ ROOT_URLCONF = 'BookEx.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, '../BookEx/BookEx/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'bookEx/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,7 +127,7 @@ STATIC_URL = '/static/'
 # linux: ../BookEx/BookEx/static
 # windows: bookEX/static
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '../BookEx/BookEx/static')
+    os.path.join(BASE_DIR, 'bookEX/static')
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
